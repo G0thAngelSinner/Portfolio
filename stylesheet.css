@@ -380,9 +380,6 @@ div.scroll-container video {
   color: #18251f;
 }
 /*end footer */
-/*hjælp fra chatgpt til at gøre header og footer responsiv*/
-/*prompt: make header and footer responsive in css */
-
 /* Make h2 headings smaller on small screens (phones) */
 @media screen and (max-width: 600px) {
   h2 {
