@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>etc-studio</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Emma Chrillesen</a>
+
+      <a
+        href="https://www.figma.com/design/DT0cwkPspOEr8psgyQAsuq/Portfolio?node-id=0-1&t=OEuZ4S62Wfn8uPaS-1"
+        >Dokumentation</a
+      >
+      <a href="om-mig.html">Om Mig</a>
+      <a href="projekter.html">Projekter</a>
+      <a href="index.html">Hjem</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!--java script-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <!--end navbar-->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Emma Chrillesen</h1>
+        <h2>Portfolio</h2>
+      </div>
+    </div>
+
+    <!--programs section-->
+    <section class="programs-section">
+      <h2>Programmer Jeg Bruger</h2>
+
+      <div class="program-grid">
+        <div class="program-item">
+          <img src="images/adobe.png" alt="Adobe Creative Cloud" />
+          <p>Adobe Creative<br />Cloud</p>
+        </div>
+        <div class="program-item">
+          <img src="images/vscode.png" alt="HTML & CSS" />
+          <p>HTML & CSS</p>
+        </div>
+
+        <div class="program-item">
+          <img src="images/canva.png" alt="Canva" />
+          <p>Canva</p>
+        </div>
+
+        <div class="program-item">
+          <img
+            src="images/inventor.png"
+            alt="Autodesk Inventor"
+            style="margin-bottom: 10.5px"
+          />
+          <p>Autodesk Inventor</p>
+        </div>
+        <div class="program-item">
+          <img src="images/shapr3d.svg" alt="Shapr3D" />
+          <p>Shapr3D</p>
+        </div>
+      </div>
+    </section>
+    <div>
+      <div class="video">
+        <video controls loop muted src="images/responsive.mp4"></video>
+      </div>
+    </div>
+    <!--end programs-->
+    <div class="om-mig">
+      <div class="om-mig-text">
+        <h1>Hvem er jeg?</h1>
+        <h3>
+          Mit navn er Emma Chrillesen. Jeg er 21 år gammel og jeg er uddannet
+          Teknisk Designer med speciale i industriel produktion. Jeg studerer i
+          øjeblikket til Multimediedesigner på Erhvervs­akademi Køben­havn.
+          <br />
+          <br />Jeg er en kreativ person, og jeg bruger ofte min fritid på at
+          lave noget med mine hænder. Jeg er detaljeorienteret, og det kommer
+          tydeligt til udtryk i mit arbejde.
+        </h3>
+      </div>
+      <div><img src="images/profile.jpg" alt="" /></div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer" style="margin-top: 20px">
+      <h2 class="footer-logo">etc-studio.dk</h2>
+
+      <ul class="footer-nav">
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="projekter.html">Projekter</a></li>
+        <li><a href="om-mig.html">Om Mig</a></li>
+        <li>
+          <a
+            href="https://www.figma.com/design/DT0cwkPspOEr8psgyQAsuq/Portfolio?node-id=0-1&t=OEuZ4S62Wfn8uPaS-1"
+            >Dokumentation</a
+          >
+        </li>
+      </ul>
+
+      <div class="footer-social">
+        <a
+          href="https://www.linkedin.com/in/emma-chrillesen-53b635249/"
+          class="social-icon"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/etc.threads/" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linktr.ee/0Emma0" class="social-icon">
+          <i class="fab fa-linktree"></i>
+        </a>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/fc5b66fd42.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--end footer-->
+  </body>
+</html>
